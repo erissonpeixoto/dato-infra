@@ -29,6 +29,13 @@
       datoca_fog_storage_sec_key: "azure_storage_access_key"
       datoca_fog_storage_sec_val: "GYKStc6YmgjIWrRgX+xc9mxp/dnyE6oGQmaUSCHSM7uJ39B+kbCfmZ+bgfkRQgdhcftzqPAm8nOmGEvIviDB/w=="
       datoca_fog_storage_directory: "staging"
+      datoca_vendors_facebook_id: "345364132582168"
+      datoca_vendors_facebook_secret: "7123a770c3ab2766d4dabb69d5ca48e5"
+      datoca_vendors_facebook_callback_url: "http://40.74.244.164/auth/auth/facebook/callback"
+      datoca_vendors_linkedin_id: "7791ilgfhk38ub"
+      datoca_vendors_linkedin_secret: "3dH2L92eDXc7JU6L"
+      datoca_vendors_google_id: "217381145104-9efju8f2pu305t1mppoa5up8re4ghqgt.apps.googleusercontent.com"
+      datoca_vendors_google_secret: "qK_FwE0oAMgE9RHtbnUN_4PW"
   tasks:
     - name: authorize ssh access for the deploy user
       authorized_key: user="{{ datoca_user }}" key="{{ item }}"
