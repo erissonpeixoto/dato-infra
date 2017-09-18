@@ -11,8 +11,8 @@
       datoca_database_name: datoca_staging
       datoca_database_user: deploy
       datoca_database_password: "22c136c5f8847a32f9b3b3b03a32110d831090a58a512f15336a0d4be9a85c26ec663bac1a2bebc4e5f012ef5c29aa700c05f0c1d3915ec71c347b173bcbcccd"
-      datoca_rails_base_url: "https://noite.datoca.com"
-      datoca_rails_action_mailer_host: "noite.datoca.com"
+      datoca_rails_base_url: "https://noite.dato.ai"
+      datoca_rails_action_mailer_host: "noite.dato.ai"
       datoca_rails_sec_key_base: "9c48ac478b4298b9155b567513f98bc93cb267b7a1db7d9092a717633b0ef96b0c93fb567677eab2baca66029fb4b90d21217260fa72ed12d90a065f2c40c16d"
       datoca_rails_devise_sec_key: "a9dd40f012d528ee19953764abb2c52de8136c15f7277c62186f60dcc50819faebb4734d3b918b1e602ccfcbe62936b4d1ae46c74458b052e422aaa519a81434"
       datoca_rails_devise_mailer: "nao-responda@sandbox28a14aff88364ac68d00f0816c6a38a2.mailgun.org"
@@ -22,7 +22,7 @@
       datoca_smtp_user: "postmaster@sandbox28a14aff88364ac68d00f0816c6a38a2.mailgun.org"
       datoca_smtp_pass: "a1ed38ade71f5e854028a5e4a0242153"
       datoca_smtp_auth: plain
-      datoca_nginx_server_name: "noite.datoca.com"
+      datoca_nginx_server_name: "noite.dato.ai"
       datoca_fog_storage_provider: "AzureRM"
       datoca_fog_storage_key_key: "azure_storage_account_name"
       datoca_fog_storage_key_val: "datocaweb"
@@ -31,7 +31,7 @@
       datoca_fog_storage_directory: "staging"
       datoca_vendors_facebook_id: "345364132582168"
       datoca_vendors_facebook_secret: "7123a770c3ab2766d4dabb69d5ca48e5"
-      datoca_vendors_facebook_callback_url: "http://40.74.244.164/auth/auth/facebook/callback"
+      datoca_vendors_facebook_callback_url: "http://noite.dato.ai/auth/auth/facebook/callback"
       datoca_vendors_linkedin_id: "7791ilgfhk38ub"
       datoca_vendors_linkedin_secret: "3dH2L92eDXc7JU6L"
       datoca_vendors_google_id: "217381145104-9efju8f2pu305t1mppoa5up8re4ghqgt.apps.googleusercontent.com"
